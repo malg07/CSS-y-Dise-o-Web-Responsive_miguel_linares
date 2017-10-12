@@ -1,13 +1,16 @@
 body{
   background-color: black;
 }
-h1{
+.titulo{
   color: white;
 }
 header{
   width: 80%;
   height: 100px;
   margin: auto;
-  border: opx;
+  border-radius: 10px 10px 0px 0px;
   background-color:  #5b7989;
+}
+*{
+  font-family: 'Dancing Script', cursive;
 }
