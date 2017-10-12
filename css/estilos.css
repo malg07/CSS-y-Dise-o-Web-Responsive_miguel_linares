@@ -3,6 +3,24 @@ body{
 }
 .titulo{
   color: white;
+  float: left;
+  margin: auto;
+  float: left;
+  text-shadow: 2px 2px #02010a;
+  padding-left: 10px;
+}
+.menu{
+  float: right;
+  color: white;
+  padding: 30px 10px 10px 0px;
+}
+.titulo, .menu{
+  margin: auto;
+}
+a{
+  padding-right: 10px;
+  color: white;
+  font-size: 20px;
 }
 header{
   width: 80%;
