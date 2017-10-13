@@ -3,7 +3,6 @@ body{
 }
 .titulo{
   color: white;
-  float: left;
   margin: auto;
   float: left;
   text-shadow: 2px 2px #02010a;
@@ -31,4 +30,27 @@ header{
 }
 *{
   font-family: 'Dancing Script', cursive;
+  margin: auto;
+}
+#img{
+  display: flex;
+  flex-flow: wrap row;
+  text-align: center;
+}
+.imgcentral{
+  width: 80%;
+  background-color: #82c3a6;
+}
+.imgsegundaria{
+  width: 40%;
+  background-color:  #d5c75f;
+}
+.imgretrato{
+  width: 40%;
+  background-color: #d5c75f;
+}
+img{
+  width: 90%;
+  height: 90%;
+  margin: 2%;
 }
